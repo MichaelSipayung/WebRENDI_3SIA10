@@ -1,0 +1,41 @@
+/* CSS Document Membuat Drop Menu */
+.dropmenu{
+background:#0033CC;
+padding:0;
+margin:0;
+list-style-type:none;
+height:40px;}
+
+.dropmenu li {float:left;}
+.dropmenu li a {
+padding:9px 30px;
+display:block;
+color:#FFFFFF;
+text-decoration:none;
+font:14px Arial, Helvetica, sans-serif;}
+
+/*Pengaturan Sub Menu */
+.dropmenu ul{
+position:absolute;
+left:-9999px;
+top:-9999px;
+list-style-type:none;}
+
+.dropmenu li:hover {
+position:relative; color:#FF0000:}
+
+.dropmenu li:hover ul{
+left:10px;
+top:30px;
+background:#000000;
+padding:0px;}
+
+.dropmenu li:hover ul li a{
+padding:5px;
+display:block;
+width:200px;
+text-indent:15px;
+background: #000000;}
+
+.dropmenu li:hover ul li a:hover{background:#CCCCCC;} 
+
